@@ -1,0 +1,31 @@
+Hacer una clase llamada Password que siga 
+las siguientes condiciones:
+
+Atributos:   
+
+int    longitud 
+String contraseña . 
+
+Por defectoa LONGITUD = 8.
+
+constructorese:
+	Un constructor por defecto.
+		Generara una contraseña aleatoria con LONGITUD.
+	Un constructor con la longitud que nosotros le pasemos. 
+		Generara una contraseña aleatoria con esa longitud.
+
+Los métodos que implementa serán:
+
+public boolean esFuerte(): devuelve un booleano si es fuerte o no, para que sea 
+	fuerte:
+	2 o mas mayúsculas, 
+	1 o mas minúscula 
+	5 o mas digitos.
+
+private String generarPassword():  genera la contraseña del objeto con la longitud que tenga.
+
+Método get para contraseña y longitud.
+
+Luego, crear una clase clase ejecutable:
+
+
